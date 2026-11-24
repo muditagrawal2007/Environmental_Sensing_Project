@@ -1,5 +1,7 @@
 # ESP32-S3 Environmental Monitoring Station
 
+Presentation Link : https://drive.google.com/file/d/1AuJ6CJ_ycUY9XcgFCacMq2VpDqquatQu/view?usp=drive_link
+
 A room environment monitor built on an **ESP32-S3** running **FreeRTOS**. It reads temperature, humidity, light and air pressure, sends them over **MQTT**, and shows them on a **live web dashboard**. The dashboard also replays what happens *inside* the chip: every function call for every reading, timed in microseconds, across both CPU cores.
 
 **Author:** Mudit Agrawal (2501010283), 
